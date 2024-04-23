@@ -40,4 +40,12 @@ header {
     text-decoration: none;
     color: rgb(23, 104, 122);
     font-size: 1.2rem;
+    border-bottom: 3px;
+    border-bottom:3px solid transparent;
+    border-radius: 6px;
+}
+#links a:hover {
+    border-bottom: 3px solid  ;
+    color: rgb(84, 151, 169);
+    transform: scale(1.05);
 }
