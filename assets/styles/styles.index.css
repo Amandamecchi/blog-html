@@ -8,7 +8,7 @@
 }
 body {
     font-family: "Bebas Neue", sans-serif;
-    background-color: rgb(230, 239, 243);
+    background-color: rgb(210, 228, 236);
 }
 h1 {
     text-align: center;
@@ -19,4 +19,25 @@ h3 {
 header {
     display: flex;
     justify-content: space-around;
+    margin-top: 10px;
+    height: 150px;
+    background-color: rgb(142, 193, 229);
+    color: rgb(247, 241, 241);
+    align-items: center;
+}
+#logo-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+#links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+
+}
+#links a {
+    text-decoration: none;
+    color: rgb(23, 104, 122);
+    font-size: 1.2rem;
 }
