@@ -1,7 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lugrasimo&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    font-family: "Bebas Neue", sans-serif;
+    background-color: rgb(230, 239, 243);
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    font-family: "Lugrasimo";
+}
+header {
+    display: flex;
+    justify-content: space-around;
 }
