@@ -19,7 +19,6 @@ h3 {
 header {
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;
     height: 150px;
     background-color: rgb(142, 193, 229);
     color: rgb(247, 241, 241);
@@ -40,7 +39,6 @@ header {
     text-decoration: none;
     color: rgb(23, 104, 122);
     font-size: 1.2rem;
-    border-bottom: 3px;
     border-bottom:3px solid transparent;
     border-radius: 6px;
 }
